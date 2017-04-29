@@ -15,4 +15,3 @@ Route::get('/', ['as' => 'message', 'uses' => 'msgController@show']);
 
 Route::get('/show/{page}', ['as' => 'message', 'uses' => 'msgController@show']);
 
-Route::get('/google', ['as' => 'message', 'uses' => 'msgController@gg']);
